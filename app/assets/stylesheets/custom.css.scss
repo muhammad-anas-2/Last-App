@@ -44,7 +44,7 @@
 
   float: left;
 
-  font-size: 1.7em;
+  font-size: 3em;
 
   color: #333333;
 
@@ -71,17 +71,17 @@
 
 .jumbotron {
 
-
+  background-image: asset_data_url('ruby.jpg');
 
   background-size: cover;
 
-  height: 550px;
+  height: 600px;
 
 }
 
 .jumbotron h1 {
 
-  color: #08808A;
+  color: #F7F7F7;
 
   text-align: center;
 
@@ -93,6 +93,7 @@
 
 }
 
+
 .nav-item  {
   padding: 15px;
 }
@@ -101,4 +102,41 @@
 
 .d-flex   {
   padding: 10px;
+}
+
+.center{
+  text-align: center;
+}
+footer {
+  margin-top: 45px;
+  padding-top: 5px ;
+  border-top: 2px solid #eaeaea;
+  color: #cc0000;
+}
+footer a:hover {
+
+  color: #222;
+
+}
+
+footer small {
+
+  float: left;
+
+}
+
+footer ul {
+
+  float: right;
+
+  list-style: none;
+
+}
+
+footer ul li {
+
+  float: left;
+
+  margin-left: 15px;
+
 }
